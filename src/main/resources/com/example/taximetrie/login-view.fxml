@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taximetrie.controllers.LogInController">
+   <children>
+      <TextField fx:id="txtfld_login" layoutX="157.0" layoutY="112.0" prefHeight="46.0" prefWidth="285.0" />
+      <Button fx:id="btn_login" layoutX="275.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleLogin" text="Log In" />
+   </children>
+</AnchorPane>

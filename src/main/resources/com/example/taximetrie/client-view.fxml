@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taximetrie.controllers.ClientController">
+   <children>
+      <Button fx:id="btn_cauta" layoutX="14.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleCauta" text="Cauta" />
+      <TextField fx:id="txtfld_cauta" layoutX="61.0" layoutY="42.0" />
+      <Button fx:id="btn_accept" layoutX="329.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleAccept" text="Accept" />
+      <Button fx:id="btn_cancel" layoutX="427.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+      <TextField fx:id="txtfld_masina" layoutX="329.0" layoutY="42.0" />
+      <TextField fx:id="txtfld_timp" layoutX="329.0" layoutY="68.0" />
+      <Label layoutX="281.0" layoutY="46.0" text="Masina:" />
+      <Label layoutX="286.0" layoutY="72.0" text="Timp:" />
+   </children>
+</AnchorPane>

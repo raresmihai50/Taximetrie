@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taximetrie.controllers.TaximetristController">
+   <children>
+      <TableView fx:id="tbl_comenzi" layoutX="14.0" layoutY="55.0" prefHeight="200.0" prefWidth="275.0">
+        <columns>
+          <TableColumn fx:id="tblcol_nume" prefWidth="137.40000915527344" text="Nume" />
+          <TableColumn fx:id="tblcol_locatie" prefWidth="136.8000061035156" text="Locatie" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="38.0" text="Lista Comezi Active:" />
+      <TextField fx:id="txtfld_timp" layoutX="126.0" layoutY="255.0" />
+      <Button fx:id="btn_onoreaza" layoutX="140.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleOnoreazaComanda" text="Onoreaza Comanda" />
+      <Label layoutX="19.0" layoutY="259.0" text="Timp de Asteptare:" />
+      <Label layoutX="16.0" layoutY="317.0" text="Cel mai fidel client:" />
+      <TextField fx:id="txtfld_client_fidel" layoutX="127.0" layoutY="313.0" />
+      <DatePicker fx:id="data_comenzi" layoutX="370.0" layoutY="268.0" onAction="#loadComenziListaData" />
+      <ListView fx:id="lst_comenzi_data" layoutX="358.0" layoutY="55.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
